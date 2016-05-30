@@ -49,22 +49,17 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#" class="btn-social btn-outline">
-                            <i class="fa fa-fw fa fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#" class="btn-social btn-outline">
                             <i class="fa fa-fw fa-facebook"></i>
                         </a>  
                     </li>
                     <li class="page-scroll">
                         <a href="#" class="btn-social btn-outline">
-                            <i class="fa fa-fw fa-twitter"></i>
+                            <i class="fa fa-fw fa fa-youtube"></i>
                         </a>
                     </li>
 
                     <li class="page-scroll">
-                        <a href="#portfolio">Nosotros</a>
+                        <a href="#misionvision">Nosotros</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#services">servicios</a>
@@ -83,11 +78,7 @@
                             <i class="fa fa-fw fa fa-envelope-o"></i>
                         </a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#" class="btn-social btn-outline">
-                            <i class="fa fa-fw fa-envelope-o"></i>
-                        </a>  
-                    </li>
+                
                     <li class="page-scroll">
                         <a href="#" class="btn-social btn-outline">
                             <i class="fa fa-fw fa-phone-square"></i>
@@ -116,7 +107,7 @@
 </section>
 
 <!-- Portfolio Grid Section -->
-<section id="portfolio" class="success">
+<section id="misionvision" class="success">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -125,7 +116,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6 text-center">
-             <a href="#mision" class="boton-nosotros" data-toggle="collapse">MISIÓN</a>
+             <a href="#mision" class="boton-nosotros mision hoverExpand" data-toggle="collapse">MISIÓN</a>
              <div id="mision" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -134,7 +125,7 @@
 
         </div>
         <div class="col-sm-6 text-center">
-         <a href="#vision" class="boton-nosotros" data-toggle="collapse">VISÍON</a>
+         <a href="#vision" class="boton-nosotros vision hoverExpand" data-toggle="collapse">VISÍON</a>
              <div id="vision" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -628,6 +619,21 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="assets/js/freelancer.js"></script>
+<script type="text/javascript">
+    $( ".hoverExpand" ).hover(
+    function() {
+        if (! $(this).hasClass('collapsing') && 
+            $(this).hasClass('collapsed')) {
+                $( this ).click();
+        }
+    }, function() {
+        if  (! $(this).hasClass('collapsing') || 
+             ! $(this).hasClass('collapsed')) {
+                $( this ).click();
+        }
+    }
+);
+</script>
 
 </body>
 
