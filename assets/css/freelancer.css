@@ -146,11 +146,15 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
 }
-
+@font-face {
+   font-family: MyriadPro;
+   src: url(../fonts/MyriadWebPro-CondensedIt.ttf);
+}
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: MyriadPro;
     font-weight: 700;
+
 }
 
 .navbar a:focus {
@@ -181,7 +185,9 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #E5CA58;
+    background: #E1C350;
+    font-family: MyriadPro;
+
 }
 
 section.success a,
@@ -257,6 +263,8 @@ section.success a.active {
 #misionvision * {
     z-index: 2;
     color: white;
+   
+    margin-bottom: 5%;
 }
 .mision:hover {
     background-color: #274E7C;
@@ -275,6 +283,10 @@ section.success a.active {
     padding-right: 30px;
     color: white;
     text-decoration: none; 
+}
+.cuerpomv
+{
+    text-align: justify;
 }
 
 @media(min-width:767px) {
@@ -367,7 +379,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #385381;
 }
 
 footer .footer-col {
@@ -488,7 +500,8 @@ padding-top: 60px; overflow: hidden;
 }
 .videito
 {
-  background: #636263;
+    margin-top: 5%;
+  background-color: rgb(99,98,99);
   margin-bottom: 10px;
   padding-bottom: 10px;
   padding-top: 10px;

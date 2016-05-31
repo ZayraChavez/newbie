@@ -1,16 +1,31 @@
+/*.cabecera
+{
+	background-image: url(../img/cabecera.png);
+	height: 163px;
+}*/
+.navbar-default
+{
+	background-color: #ffffff !important;
+}
 .navbar-default .navbar-nav>li>a 
 {
-	color:  #E5CA58 !important;
+	color:  #E1C350 !important;
 	font-family: MyriadPro !important;
 }
 @font-face {
    font-family: MyriadPro;
    src: url(../fonts/MyriadWebPro-CondensedIt.ttf);
 }
+.servicios
+{
+	font-family: MyriadPro !important;
+}
 
 #services .services-item {
     right: 0;
     margin: 0 0 15px;
+    font-family: MyriadPro !important;
+
 }
 
 #services .services-item .services-link {
@@ -247,4 +262,57 @@
 .clientes-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+/*Cabecera menu*/
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:hover, 
+ .navbar-default .navbar-nav>.active>a:focus {
+ 	
+    border-bottom: solid #385381 3px !important;
+    background-color:  #ffffff !important;
+}
+.fcuadro
+{
+	border-right: 3px solid #ffffff;
+	border-left: 3px solid #ffffff;
+	color: #E1C350;
+	font-family: Myriad;
+}
+.fpasta
+{
+	text-align: justify;
+	font-size: 12px;
+	color: white !important;
+}
+@font-face {
+   font-family: Myriad;
+   src: url(../fonts/MyriadPro-Regular.otf);
+}
+.pastita
+{
+}
+.colorfc{
+	color: #636366 !important;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #385381 !important;
+    border-color: #385381 !important;
+}
+/*Menu pequeño*/
+.logoglobo
+{
+    margin-top: -13px;
+    padding: 2px;
+background-color: #ffffff;
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #e354e3;
+}
+.social
+{
+	 margin-bottom: -31px;
+
 }
