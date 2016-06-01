@@ -11,6 +11,9 @@
 
         <title>Newbie Consulting</title>
 
+        <link rel="icon" type="image/png" href="assets/img/favicon-newbie.png" />
+
+
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +28,7 @@
 
     </head>
 
-    <body id="page-top" class="index">
+    <body id="page-top" class="index" style="background-color: #E1C350;">
 
         <!-- Navigation -->
         <nav style=" color: rgb(229, 202, 88);" class="navbar navbar-default navbar-fixed-top cabecera">
@@ -50,37 +53,37 @@
                             <a href="#page-top"></a>
                         </li> -->
 
-                        <li class="page-scroll social">
-                        <a href="https://www.facebook.com/PastaLabCreativo/?fref=ts">
-                                <img  width="50px"  src="assets/img/facebook.png"></a>
+                        <li class="page-scroll social" style="margin-left: 70px;">
+                        <a href="https://www.facebook.com/PastaLabCreativo/?fref=ts" >
+                                <div id="faces" class="divsocial"></div></a>
                             </li>
                             <li class="page-scroll social">
                                 <a href="https://www.youtube.com/user/ColdplayVEVO">
-                                    <img width="50px" src="assets/img/youtube.png"></a>
+                                    <div id="youtubes" class="divsocial"></div></a>
                                 </li>
                                 <li class="page-scroll">
-                                    <a href="#misionvision">Nosotros</a>
+                                    <a href="#misionvision" class="textoseparacion">Nosotros</a>
                                 </li>
                                 <li class="page-scroll">
-                                    <a href="#services">servicios</a>
+                                    <a href="#services" class="textoseparacion">servicios</a>
                                 </li>
                                 <a class="navbar-brand" href="#">
                                     <div class="logoglobo"><img src="assets/img/logo.png" class="logoglobo"></div>
                                 </a>
 
                                 <li class="page-scroll " >
-                                    <a href="#clientes">Clientes</a>
+                                    <a href="#clientes" class="textoseparacion">Clientes</a>
                                 </li>
                                 <li class="page-scroll ">
-                                    <a href="#contacto">Contacto</a>
+                                    <a href="#contacto" class="textoseparacion">Contacto</a>
                                 </li>
                                     <li class="page-scroll social">
                         <a href="#contacto">
-                                <img  width="50px"  src="assets/img/tel.png"></a>
+                                 <div id="tels" class="divsocial"></div></a>
                             </li>
                             <li class="page-scroll social">
                                 <a href="#contacto">
-                                    <img width="50px" src="assets/img/correo.png"></a>
+                                     <div id="correos" class="divsocial"></div></a>
                                 </li>
 
 
@@ -145,22 +148,19 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="servicios">Servicios</h2>
-
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-sm-4 services-item">
-                    <a href="#servicesModal1" class="services-link" data-toggle="modal">
-                        <div class="caption">
-
-                           <img src="assets/img/ejemplo.jpg" class="img-responsive" alt="">
-
+                <div class="columna col-sm-4 services-item disenouno">
+                    <a href="#servicesModal1" class="services-link " data-toggle="modal">
+                        <div class="caption  img-responsive">
+                        <h4>MANUAL DE PROCEDIMIENTOS</h4>
                        </div>
-                       <img src="assets/img/ejemplo2.jpg" class="img-responsive" alt="">
+                      
                    </a>
                </div>
-               <div class="col-sm-4 services-item">
+               <div class="columna col-sm-4 services-item">
                 <a href="#servicesModal2" class="services-link" data-toggle="modal">
                     <div class="caption">
 
@@ -170,7 +170,7 @@
                    <img src="assets/img/ejemplo2.jpg" class="img-responsive" alt="">
                </a>
            </div>
-           <div class="col-sm-4 services-item">
+           <div class="columna col-sm-4 services-item">
             <a href="#servicesModal3" class="services-link" data-toggle="modal">
              <div class="caption">
 
@@ -180,7 +180,7 @@
            <img src="assets/img/ejemplo2.jpg" class="img-responsive" alt="">
        </a>
     </div>
-    <div class="col-sm-4 services-item">
+    <div class="columna col-sm-4 services-item">
         <a href="#servicesModal4" class="services-link" data-toggle="modal">
             <div class="caption">
 
@@ -190,7 +190,7 @@
            <img src="assets/img/ejemplo2.jpg" class="img-responsive" alt="">
        </a>
     </div>
-    <div class="col-sm-4 services-item">
+    <div class="columna col-sm-4 services-item">
         <a href="#servicesModal5" class="services-link" data-toggle="modal">
             <div class="caption">
 
@@ -200,7 +200,7 @@
            <img src="assets/img/ejemplo2.jpg" class="img-responsive" alt="">
        </a>
     </div>
-    <div class="col-sm-4 services-item">
+    <div class="columna col-sm-4 services-item">
         <a href="#servicesModal6" class="services-link" data-toggle="modal">
             <div class="caption">
 
@@ -230,7 +230,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/img/portfolio/cabin.png" class="img-responsive" alt="">
+                       <img src="assets/img/portfolio/cabin.png" class="img-responsive circuloc" alt="">
+
                     </a>
                 </div>
                 <div class="col-sm-4 clientes-item">
@@ -292,10 +293,10 @@
                 <div class="row">
                 <div class="col-lg-2 text-center"></div>
                     <div class="col-lg-4 text-center">
-                        <p>  <img  width="50px"  src="assets/img/tel.png"> Cel. 618 189 06 49</p>
+                        <p>  <img  width="50px"  src="assets/img/tel-blanco.png"> Cel. 618 189 06 49</p>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <p>  <img  width="50px"  src="assets/img/correo.png"></a> newbieac@gmail.com</p>
+                        <p>  <img  width="50px"  src="assets/img/correo-blanco.png"></a> newbieac@gmail.com</p>
 
                     </div>
                     <div class="col-lg-2 text-center"></div>
@@ -304,25 +305,25 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                        <form name="sentMessage" id="contactForm" novalidate>
+                        <form name="sentMessage" id="contactForm" action="contacto.php" method="post" novalidate>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label class="">Nombre</label>
-                                    <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor ingrese su nombre.">
+                                    <input type="text" class="form-control" placeholder="Nombre" id="name" name="nombre" required data-validation-required-message="Por favor ingrese su nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>E-mail</label>
-                                    <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor ingrese su E-mail.">
+                                    <input name="email" type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor ingrese su E-mail.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Mensaje</label>
-                                    <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor ingrese su mensaje."></textarea>
+                                    <textarea name="mensaje" rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor ingrese su mensaje."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -330,7 +331,7 @@
                             <div id="success"></div>
                             <div class="row">
                                 <div class="form-group col-xs-12">
-                                    <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                                    <button name="submit" type="submit" class="btn btn-success btn-lg">Enviar</button>
                                 </div>
                             </div>
                         </form>
