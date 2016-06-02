@@ -278,6 +278,8 @@
 	border-left: 3px solid #ffffff;
 	color: #E1C350;
 	font-family: Myriad;
+    letter-spacing: 6px;
+    height:130px;
 }
 .fpasta
 {
@@ -392,9 +394,72 @@ border: 0px solid #e354e3;
 .circuloc
 {
 width: 240px;
-    height: 220px;
+height: 220px;
 border-radius: 200px 200px 200px 200px !important;
 -moz-border-radius: 200px 200px 200px 200px !important;
 -webkit-border-radius: 200px 200px 200px 200px !important;
 border: 2px solid #ffffff;
+}
+.colfoot{
+padding-left: 3px !important; 
+padding-right: 1px !important; 
+}
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+#facef
+{
+    background: url(../img/facebook-g.png) no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+#facef:hover
+{
+    background: url(../img/facebook-ama.png) no-repeat;
+     height: 25px;
+    width: 25px;
+}
+#youtubef
+{
+    background: url(../img/youtube-g.png) no-repeat;
+     height: 25px;
+    width: 25px;
+   
+}
+#youtubef:hover
+{
+    background: url(../img/youtube-ama.png) no-repeat;
+     height: 25px;
+    width: 25px;
+
+}
+#twitterf
+{
+    background: url(../img/twitter-g.png) no-repeat;
+     height: 25px;
+    width: 25px;
+}
+
+#twitterf:hover
+{
+    background: url(../img/twitter-ama.png) no-repeat;
+     height: 25px;
+    width: 25px;
+}
+.disenlista{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.desingul
+{
+        margin-left: -110px !important;
+}
+.youtubepadding
+{
+padding-right: 0px !important;
 }
