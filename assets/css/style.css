@@ -1,11 +1,20 @@
-/*.cabecera
+.cabecera
 {
-	background-image: url(../img/cabecera.png);
-	height: 163px;
-}*/
+	/*background-image: url(../img/cabeceralogo.png) ;*/
+
+	height: 75px;
+    background-color: white; !important;
+    color:  #E1C350 !important;
+
+}
 .navbar-default
 {
-	background-color: #ffffff !important;
+    color:  #E1C350 !important;
+	background-color: white !important;
+    border-radius: 0px 0px 40px 40px !important;
+
+}
+
 }
 .navbar-default .navbar-nav>li>a 
 {
@@ -33,6 +42,7 @@
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #services .services-item .services-link .caption {
@@ -269,8 +279,8 @@
  .navbar-default .navbar-nav>.active>a:hover, 
  .navbar-default .navbar-nav>.active>a:focus {
  	
-    border-bottom: solid #385381 3px !important;
-    background-color:  #ffffff !important;
+   
+    background-color:  transparent !important;
 }
 .fcuadro
 {
@@ -305,13 +315,14 @@
 /*Menu pequeño*/
 .logoglobo
 {
- margin-top: -3px;
- padding: 2px;
-background-color: #ffffff;
+width: 130px
+height: 138px;
+margin-top: -42px;
+background-color: transparent;
 border-radius: 200px 200px 200px 200px;
 -moz-border-radius: 200px 200px 200px 200px;
 -webkit-border-radius: 200px 200px 200px 200px;
-border: 0px solid #e354e3;
+border: 0px solid #000000;
 }
 .social
 {
@@ -322,21 +333,13 @@ border: 0px solid #e354e3;
  padding-right: 0px !important; 
  margin: 0 0 0px !important;
 }
-.disenouno{
-	
-	background-color: pink;
-	color: #636366;
-	font-family: Myriad;
 
-}
-.seccion {
-    padding: 0 0 !important;
-}
 #youtubes
 {
 	background: url(../img/youtube.png) no-repeat;
 	height: 50px;
 	width: 50px;
+    margin-top: -23px;
 }
 
 #youtubes:hover
@@ -344,12 +347,14 @@ border: 0px solid #e354e3;
 	background: url(../img/youtube-azul.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 #faces
 {
 	background: url(../img/facebook.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 
 #faces:hover
@@ -357,12 +362,14 @@ border: 0px solid #e354e3;
 	background: url(../img/facebook-azul.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 #tels
 {
 	background: url(../img/tel.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 
 #tels:hover
@@ -370,12 +377,14 @@ border: 0px solid #e354e3;
 	background: url(../img/tel-azul.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 #correos
 {
 	background: url(../img/correo.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 
 #correos:hover
@@ -383,6 +392,7 @@ border: 0px solid #e354e3;
 	background: url(../img/correo-azul.png) no-repeat;
 	height: 50px;
 	width: 50px;
+     margin-top: -23px;
 }
 .divsocial{
 	width: 50px;
@@ -390,7 +400,13 @@ border: 0px solid #e354e3;
 }
 .textoseparacion{
 	letter-spacing: 6px;
+    color: #E1C350 !important;
 }
+.rayaazul:hover, .rayaazul:focus {
+    border-bottom: solid #385381 3px !important;
+}
+
+
 .circuloc
 {
 width: 240px;
@@ -462,4 +478,42 @@ padding-right: 1px !important;
 .youtubepadding
 {
 padding-right: 0px !important;
+}
+.cabeceracontac{
+margin-bottom: 50px;
+letter-spacing: 3px;
+}
+.seccion {
+    padding: 0 0 !important;
+}
+.disenocuadro{
+    color: gray !important;
+}
+/*servicios*/
+.contenidoservicios
+{
+    color: #636366 !important;
+    padding: 10px;
+    text-align:center;
+}
+.disenouno{
+    
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    color: #636366;
+    font-family: Myriad;
+    letter-spacing: 3px;
+}
+.tamanocaja{
+    width: 300px;
+    height: 300px;
+
+}
+.section{
+    padding: 150px 0;
+
+}
+.section2{
+    padding: 180px 0;
+
 }
