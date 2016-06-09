@@ -167,6 +167,7 @@ header .intro-text .skills {
 .navbar .navbar-nav {
     letter-spacing: 1px;
     color: #E1C350 !important;
+
 }
 
 .navbar .navbar-nav li a:focus {
@@ -269,7 +270,7 @@ section.success a.active {
 #misionvision * {
     z-index: 2;
     color: white;
-   
+   text-decoration: none;
     margin-bottom: 5%;
 }
 
@@ -300,6 +301,7 @@ section.success a.active {
 .cuerpomv
 {
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 @media(min-width:767px) {

@@ -25,12 +25,88 @@
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+        <style type="text/css">
+            .navcel{
+                visibility: hidden;
+
+            }
+            .overflow{
+                overflow-y: hidden !important;
+            }
+            .dnav
+            {
+                background-color: white !important;
+            }
+
+            .navbrand 
+            {
+
+                color: black !important;
+                visibility: hidden;
+                overflow: hidden;
+                display: none;
+                width: 0 !important;
+                height: 0 !important;
+
+            }
+            .navbrand:hover
+            {
+                color: pink !important;
+                visibility: hidden;
+                overflow: hidden;
+                display: none;
+                width: 0 !important;
+                height: 0 !important;
+
+            }
+         /*   .navcompu{
+
+                visibility: visible; 
+
+            }*/
+            @media only screen and (max-width: 767px) {
+                .navcel{
+
+                    visibility: visible; 
+                    background-color: black;
+                    
+                }
+                .zay
+                {
+                    visibility: hidden;
+                    overflow: hidden;
+                    display: none;
+                    width: 0 !important;
+                    height: 0 !important;
+                }
+                .navbar-default
+                {
+                    border-radius: 0 !important;
+                }
+                .navbar .navbar-nav {
+                    
+                    letter-spacing: 1px;
+                    color: #E1C350 !important;
+                    background-color: white;
+                }
+
+                .navcompu{
+                    visibility: hidden !important;
+                }
+            }
+            @media only screen and (max-width: 1023px) {
+
+
+            }
+        </style>
+
     </head>
 
     <body id="page-top" class="index" style="background-color: #E1C350;">
 
-        <!-- Navigation -->
-        <nav style=" color: #E1C350 !important;" class="navbar navbar-default navbar-fixed-top cabecera">
+        <!-- Navigation desktop-->
+
+        <nav style=" color: #E1C350 !important;" class="dnav navbar navbar-default navbar-fixed-top cabecera">
             <div class="container" style=" color: #E1C350 !important;">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
@@ -41,34 +117,40 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    
+
 
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <div class="collapse navbar-collapse overflow" id="bs-example-navbar-collapse-1" >
                     <ul class="nav navbar-nav ">
                        <!--  <li class="hidden">
                             <a href="#page-top"></a>
                         </li> -->
 
-                        <li class="page-scroll social" >
+
+                        <li class="navcompu page-scroll social" >
                             <a href="https://www.facebook.com/PastaLabCreativo/?fref=ts" >
                                 <div id="faces" class="divsocial"></div></a>
                             </li>
-                            <li class="page-scroll social">
+
+                            <li  class="navcompu page-scroll social">
                                 <a href="https://www.youtube.com/user/ColdplayVEVO">
                                     <div id="youtubes" class="divsocial"></div></a>
                                 </li>
-                                <li class="page-scroll">
+
+                                <li class=" page-scroll">
                                     <a href="#misionvision" class="textoseparacion"><p class="rayaazul">NOSOTROS</p></a>
                                 </li>
                                 <li class="page-scroll">
                                     <a href="#services" class="textoseparacion"><p class="rayaazul">SERVICIOS</p></a>
                                 </li>
-                                <a class="navbar-brand" href="#">
-                                    <div class="logoglobo"><img src="assets/img/prueba2.png"></div>
+                                
+                                <a class="zay navcompu navbar-brand" href="#">
+                                    <div class="logoglobo"><img class="navcompu" src="assets/img/prueba2.png"></div>
                                 </a>
+                                
+
 
                                 <li class="page-scroll " >
                                     <a href="#clientes" class="textoseparacion" ><p class="rayaazul">CLIENTES</p></a>
@@ -76,14 +158,16 @@
                                 <li class="page-scroll ">
                                     <a href="#contacto" class="textoseparacion"><p class="rayaazul">CONTACTO</p></a>
                                 </li>
-                                <li class="page-scroll social">
+
+                                <li class="navcompu page-scroll social">
                                     <a href="#contacto">
                                      <div id="tels" class="divsocial"></div></a>
                                  </li>
-                                 <li class="page-scroll social">
+                                 <li class="navcompu page-scroll social">
                                     <a href="#contacto">
                                      <div id="correos" class="divsocial"></div></a>
                                  </li>
+
 
 
                              </ul>
@@ -93,10 +177,32 @@
                      <!-- /.container-fluid -->
                  </nav>
 
-                 <!-- Header -->
-             </br>
-         </br>
-         <section id="nosotros" class="success">
+
+                 <!-- Navigation -->
+
+                 <nav class="dnav navcel navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header page-scroll">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#page-top">NEWBIE CONSULTING</a>
+
+                        </div>
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+
+
+
+                <!-- Header -->
+            </br>
+        </br>
+        <section id="nosotros" class="success">
             <div class="container ">
                 <div class="row">
                     <div class="col-lg-2"></div>
